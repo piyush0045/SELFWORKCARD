@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ #first_container{
+    height: 746px;
+    background: url('pr1.png') no-repeat center center/cover;
+    color: white;
+    padding: 51px 272px;
+ }
+
+ .texttop{
+    font-size: 80px;
+ }
+
+ .texttop_right{
+    font-size: 30px;
+ }
+
+ .textbottom{
+    font-size: 80px;
+ }
+
+ #second_container{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .sub_container{
+    font-size: 80px;
+ }
+
+ .sub{
+     font-size: 100px;
+ }
+
+ /* services */
+ #services{
+    margin: 41px;
+    display: flex;
+  }
+  
+  #services .box{
+      box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+      padding: 34px;
+      margin: 2px 35px;
+      border-radius: 28px;
+      margin-bottom: 20px;
+      transition: all 0.2s ease-in-out 0s;
+  }
+
+  #services .box:hover{
+    transform: scale(1.02);
+  }
+  
+  #services .box img{
+      height: 200px;
+      display: block;
+      margin: auto;
+  }
+  
+  #services .box p{
+      margin-bottom: 50px;
+  }
+
+.h-secondary{
+ font-size: 2.3rem;
+ padding: 23px;
+}
+
+.center{
+    text-align: center;
+}
+
+#contact{
+ display: flex;
+ color: white;
+ height: 250px;
+}
+
+.contactme{
+ width: 50%;
+ background-color: green;
+ padding: 18px 59px;
+}
+
+.aboutme{
+    width: 50%;
+    background-color: red;
+    padding: 18px 54px;
+}
+
+.contactme h1,
+.aboutme h1{
+    font-size: 80px;
+}
+
+.contactme p,
+.aboutme p{
+    padding: 10px 0px;
+}
+
+#last{
+    color: white;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+
